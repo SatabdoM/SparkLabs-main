@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 async function fetchImages() {
   
-  const apiUrl = `https://api.unsplash.com/search/photos?page=1&query=motivation&client_id=891D1HdacI4CmmaQLi-GCOFkjO5IAwobbP1nzMKoHyI&per_page=100`;
+  const apiUrl = `https://api.unsplash.com/search/photos?page=1&query=motivation&client_id=891D1HdacI4CmmaQLi-GCOFkjO5IAwobbP1nzMKoHyI&per_page=20`;
 
   try {
     const response = await fetch(apiUrl);

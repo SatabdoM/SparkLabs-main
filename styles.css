@@ -238,3 +238,42 @@ a {
 #welcome-login {
   width: 300px;
 }
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 15px;
+    margin: 100px auto;
+  }
+
+  #home-wrapper {
+    min-width: unset;
+    min-height: unset;
+    margin-top: 50px;
+  }
+
+  #welcome-text {
+    font-size: 40px;
+  }
+
+  #welcome-login {
+    width: 100%;
+  }
+}
+
+/* For screens smaller than 400px */
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 10px;
+    margin: 50px auto;
+  }
+
+  #welcome-text {
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
