@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image" href="./assets/logo-2.png" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Log In</h1>
+      <div class="form-group">
+        <form class="form" role="form" onsubmit="signIn(event);" autocomplete="off" id="signin-form">
+          <input
+            class="hhh"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+
+          <input
+            type="password"
+            name="pwd"
+            id="pwd"
+            placeholder="Password"
+            required
+          />
+
+          <button class="button" type="submit">Log In</button>
+        </form>
+        <p>Don't have an account? <a href="/signup.html">Sign Up</a></p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

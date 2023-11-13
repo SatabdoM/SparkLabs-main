@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image" href="./assets/logo-2.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Sign Up</h1>
+      <div class="form-group">
+        <form
+          class="form"
+          role="form"
+          onsubmit="signUp(event);"
+          autocomplete="off"
+        >
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+            required
+          />
+
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Last Name"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+
+          <input
+            type="password"
+            name="pwd"
+            id="pwd"
+            placeholder=" Create Password"
+            required
+          />
+          <input
+            type="password"
+            name="cpwd"
+            id="cpwd"
+            placeholder="Confirm Password"
+            required
+          />
+
+          <label for="security-question" id="security-question-label"
+            >Enter Security Question:</label
+          >
+          <select
+            class="security-question"
+            name="security-question"
+            id="security-question-options"
+          >
+            <option value="first-school">Your First School</option>
+            <option value="first-school">Your birth City</option>
+            <option value="fav-show">Favorite TV Show</option>
+            <option value="fav-band">Favorite Musical Band/Singer</option>
+            <option value="fav-actor">Favorite Actor</option>
+            <option value="fav-snack">Favorite Snack</option>
+          </select>
+
+          <input
+            placeholder="Your Answer"
+            type="text"
+            id="security-answer"
+            name="security-answer"
+            required
+          />
+          <button class="button" type="submit">Sign Up</button>
+        </form>
+        <p>Already a member? <a href="/signin.html">Log In</a></p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

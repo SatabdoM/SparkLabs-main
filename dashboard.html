@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dashStyles.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/home.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="icon" type="image" href="./assets/logo-2.png" />
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;900&display=swap');
+</style>
+  </head>
+  <body>
+    <header>
+      <div class="header-block">
+        <h1 id="header-block-left-text">SparkLabs</h1>
+        <div class="header-block-right">
+             <input type="text" class="search-bar" placeholder="Search..." >
+            </input>
+            <img src="./assets/profile-pic.png" alt="" width="40px" height="40px" />
+        </div>
+       
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="navbar">
+        <div class="nav-block" id="logo-block">
+          <img src="./assets/logo-2.png" alt="" width="140px" height="140px" />
+        </div>
+        <div class="nav-block" id="options-block">
+          <ul>
+            <li>
+              <span class="material-symbols-outlined"> home </span>
+              <p>Home</p>
+            </li>
+
+            
+
+            <li>
+              <span class="material-symbols-outlined"> Notifications </span>
+              <p>Notifications</p>
+            </li>
+
+            <li>
+              <span class="material-symbols-outlined"> monitoring </span>
+              <p>Analytics</p>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> settings </span>
+              <p>Settings</p>
+            </li>
+          </ul>
+        </div>
+        <button id="nav-btn-1" >Sign Out</button>
+        <button id="nav-btn-2">View Premium</button>
+      </div>
+
+      <div class="hero-section">
+        <div id="wlcm-txt">Hi!</div>
+        <div id="hero-first-name"></div>
+        <div class="hero-section-images">
+            
+        </div>
+      </div>
+
+      <div class="profile">
+        <img
+          src="./assets/bg-1.jpg"
+          alt=""
+          height="160px"
+          id="bg-img"
+        />
+
+        <div class="image-outer">
+          <img
+          src="./assets/profile-pic.png"
+          alt=""
+          width="120px"
+          height="120px"
+          id="profile-pp"
+        />
+        </div>
+        
+        <div class="content">
+          <div class="user-info-outer">
+            <div class="user-name">
+          <div id="profile-fname"></div>
+          <div id="profile-lname"></div>
+        </div>
+        <div class="user-info">
+            <div id="profile-loc">
+              <span class="material-symbols-outlined" id="loc-icon">
+location_on
+</span>Location</div>
+            <div id="profile-date">Since 2023</div>
+        </div>
+          </div>
+          
+        
+        <div class="buttons-outer">
+
+
+       
+          <button id="profile-btn-1">Sign Out</button>
+        <button id="profile-btn-2">View Premium</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <footer>
+      <div class="footer_info">
+        <div id="footer-brand">
+          <p>SparkLabs 2023</p>
+          <p>~Satabdo Majumder </p>
+        </div>
+        
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
