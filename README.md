@@ -2,7 +2,7 @@
 Live Link: https://spark-labs-main-sl1.vercel.app/
 # Sparklabs Documentation
 
-Sparklabs is a modern web application built using HTML, CSS, and JavaScript. It features a responsive design, a user-friendly login system, and integrates with the Unsplash API to display images on the dashboard.
+Sparklabs is a modern web application built using HTML, CSS, and JavaScript. It features a modern responsive design, a user-friendly login system, and integrates with the Unsplash API to display images on the dashboard.
 
 ## Table of Contents
 
