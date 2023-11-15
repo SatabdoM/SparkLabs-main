@@ -65,7 +65,7 @@
   --brown-50: #ffd166;
   --brown-100: #e7bc5b;
   --brown-200: #cfa64f;
-  
+
   --brown-400: #a07c39;
   --brown-500: #88662d;
   --brown-600: #705122;
@@ -149,7 +149,6 @@ footer {
   display: flex;
 }
 
-
 .navbar {
   height: 80%;
   width: 25%;
@@ -161,9 +160,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    /* border: 1px solid red; */
+  /* border: 1px solid red; */
   /* border: 1px solid white; */
-  
 }
 
 #logo-block {
@@ -204,17 +202,15 @@ footer {
   flex-direction: column;
   padding-top: 5rem;
   align-items: center;
- 
+
   justify-content: space-evenly;
 }
 .user-info-outer {
- 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
-  
 }
 .user-name {
   color: #001b1d;
@@ -222,7 +218,6 @@ footer {
   justify-content: space-evenly;
   gap: 8px;
   cursor: pointer;
-  
 }
 .user-info {
   display: flex;
@@ -239,8 +234,7 @@ footer {
   align-items: center;
   gap: 0.5rem;
 }
-#profile-btn-1
-{
+#profile-btn-1 {
   width: 100%;
   height: 3rem;
   margin: 0 0 1rem 0;
@@ -254,8 +248,12 @@ footer {
   transition: background-color 0.5s;
 }
 #profile-btn-2 {
- width: 100%;
-  background: linear-gradient(108deg, rgba(255, 235, 5, 0.92) 43%, rgba(255, 154, 0, 0.91) 100%);
+  width: 100%;
+  background: linear-gradient(
+    108deg,
+    rgba(255, 235, 5, 0.92) 43%,
+    rgba(255, 154, 0, 0.91) 100%
+  );
   height: 50px;
   transition: background-color 0.5s ease-in-out;
   color: var(--richblack-900);
@@ -280,7 +278,6 @@ footer {
     rgba(255, 154, 0, 0.9051995798319328) 100%
   );
 }
-
 
 .hello {
   width: 60%;
@@ -390,7 +387,7 @@ button:hover {
     rgba(3, 182, 208, 1) 70%
   );
 }
-.nav-btn-outer{
+.nav-btn-outer {
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
@@ -435,14 +432,14 @@ button:hover {
   letter-spacing: 3px;
 }
 #header-block-left-text {
-  padding: 10px; 
-  color: #fff; 
+  padding: 10px;
+  color: #fff;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 #header-block-left-text:hover {
-  color: var(--caribbeangreen-50); 
+  color: var(--caribbeangreen-50);
 }
 
 #profile-loc {
@@ -459,7 +456,6 @@ button:hover {
   line-height: 5px;
   vertical-align: middle;
 }
-
 
 .hero-section-images {
   height: 80%;
@@ -519,7 +515,6 @@ footer {
     min-width: unset;
     margin-top: 0;
     height: 100vh;
-    
   }
 
   .profile {
@@ -550,24 +545,20 @@ footer {
   .hero-section-images img {
     height: 200px;
   }
-  
-  footer{
+
+  footer {
     margin-bottom: 1rem;
     display: none;
   }
-  .nav-btn-outer{
+  .nav-btn-outer {
     padding: 1rem;
     padding-top: 1rem;
     /* border: 1px solid red; */
-    
   }
-  .buttons-outer{
+  .buttons-outer {
     padding: 1rem 1rem;
     /* border: 1px solid red; */
-    
-    
   }
-
 }
 
 @media (max-width: 600px) {
@@ -582,7 +573,7 @@ footer {
   .hero-section-images img {
     height: 150px;
   }
-  .buttons-outer{
+  .buttons-outer {
     padding: 1rem 1rem;
   }
 }
