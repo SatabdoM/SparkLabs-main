@@ -171,14 +171,14 @@ footer {
 .profile {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  height: 40%;
   min-width: 20rem;
   margin-top: 22px;
   border-radius: 8px;
   background-color: var(--richblack-800);
   /* align-items: center;
   position: relative; */
-  overflow: hi;
+  
 }
 #bg-img {
   width: 100%;
@@ -200,10 +200,10 @@ footer {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding-top: 5rem;
+  padding-top: 4rem;
   align-items: center;
 
-  justify-content: space-evenly;
+  
 }
 .user-info-outer {
   display: flex;
@@ -392,7 +392,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  /* border: 1px solid red; */
   padding-bottom: 2rem;
 }
 #nav-btn-1 {
